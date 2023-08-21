@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Allari_SSE_ASSESSMENT_PROJECT_Alexandre_Pirfo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Allari_SSE_ASSESSMENT_PROJECT_Alexandre_Pirfo.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div id="topHeaderBar">
+            <div id="clockHeader">
+                <div id="clockHeaderHours" class="clockHeaderItem">00</div>
+                <div class="clockHeaderItemDivider">:</div>
+                <div id="clockHeaderMinuts" class="clockHeaderItem">00</div>
+                <div class="clockHeaderItemDivider">:</div>
+                <div id="clockHeaderSeconds" class="clockHeaderItem">00</div>
+            </div>
+        </div>
+        <nav id="topNavBar">
+            <a class="nav-link" href="https://www.linkedin.com/in/alexandrepirfo/">Alexandre Auguto Pirfo Diniz</a>
+        </nav>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <a href="https://allari.com/">
+            <img src="https://allari.com/wp-content/uploads/2022/07/85787c291b7950f757a92e479361e548.png">
+        </a>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

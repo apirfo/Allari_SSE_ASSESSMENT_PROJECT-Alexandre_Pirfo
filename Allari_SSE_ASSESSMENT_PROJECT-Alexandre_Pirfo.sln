@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allari_SSE_ASSESSMENT_PROJECT-Alexandre_Pirfo", "Allari_SSE_ASSESSMENT_PROJECT-Alexandre_Pirfo\Allari_SSE_ASSESSMENT_PROJECT-Alexandre_Pirfo.csproj", "{C84E74C5-1699-4E26-B4A7-84372C02B468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C84E74C5-1699-4E26-B4A7-84372C02B468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84E74C5-1699-4E26-B4A7-84372C02B468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84E74C5-1699-4E26-B4A7-84372C02B468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84E74C5-1699-4E26-B4A7-84372C02B468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55FFC953-5CA8-4D63-A702-B283DDB4C66B}
+	EndGlobalSection
+EndGlobal
