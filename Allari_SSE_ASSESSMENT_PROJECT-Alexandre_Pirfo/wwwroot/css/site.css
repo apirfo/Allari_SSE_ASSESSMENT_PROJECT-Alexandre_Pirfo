@@ -64,9 +64,9 @@ body {
 
 footer {
     width: 100%;
-    padding: 0.5em;
+    padding: 1em;
     margin-top: auto;
-    padding-left: 0.8em;
+    padding-left: 1.2em;
 }
     footer a {
         border-bottom: 1px solid white;
@@ -79,28 +79,7 @@ footer {
     }
 
 #contentContainer {
-    display: flex;
-    justify-content: space-between;
     padding:0.5em;
-}
-
-    #contentContainer > div{
-        margin: 0 0.5em;
-    }
-
-#leftContent {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#rightContent {
-    flex-grow: 2;
-}
-
-#mainContent {
-    flex-grow: 4;
 }
 
 .mousePositionContainer {
@@ -113,6 +92,10 @@ footer {
 .mousePosition{
     border: 1px solid #333;
     border-radius: 0.2em;
+}
+
+#loaingPropertiesTableData{
+    display: none;
 }
 
 /*Carousel*/
