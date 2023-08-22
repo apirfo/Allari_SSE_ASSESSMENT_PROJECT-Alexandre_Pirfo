@@ -265,9 +265,13 @@ ol, li {
     counter-increment: item;
 }
 
-    .carousel__slide:nth-child(even) {
-        background-color: #99f;
-    }
+.slideImg{
+    width: 100%;
+}
+
+.carousel__slide:nth-child(even) {
+    background-color: #99f;
+}
 
     .carousel__slide:before {
         content: counter(item);
@@ -352,10 +356,10 @@ ol, li {
     outline: 0;
 }
 
-.carousel::before,
-.carousel__prev {
-    left: -1rem;
-}
+    .carousel::before,
+    .carousel__prev {
+        left: -1rem;
+    }
 
 .carousel::after,
 .carousel__next {
@@ -384,6 +388,11 @@ ol, li {
 .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
+
+.carousel__navigation-button:hover {
+    background-color: #F4566A;
+}
+
 
 /*Btn Ripple*/
 .btn-ripple {
