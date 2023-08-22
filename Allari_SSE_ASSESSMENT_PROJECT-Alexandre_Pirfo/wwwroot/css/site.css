@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
 html {
   font-size: 14px;
 }
@@ -64,11 +66,12 @@ body {
 
 footer {
     width: 100%;
-    padding: 1em;
     margin-top: auto;
-    padding-left: 1.2em;
+    padding: 1em;
 }
     footer a {
+        padding: 1em;
+        padding-left: 1.2em;
         border-bottom: 1px solid white;
     }
         footer a:hover {
@@ -81,22 +84,62 @@ footer {
 #leftContent, #mainContent, #rightContent {
     padding: 1em;
 }
+#leftContent {
+    
+}
+#mainContent {
+    
+}
+#rightContent {
+    
+}
 
 #mousePositionContainer {
     width: fit-content;
     margin: auto;
+    font-family: 'Handjet', cursive;
+    font-size: 1.2em;
 }
 
+#mouseXPositionContainer {
+    margin-left: 4em;
+    background-color: #F4D732;
+    color: black;
+}
+    #mouseXPositionContainer p:after {
+        background: #333;
+        left: 20%;
+    }
+
+#mouseYPositionContainer {
+    margin-right: 4em;
+    background-color: #1D1D1D;
+    color: white;
+}
+    #mouseYPositionContainer p:after {
+        background: white;
+        left: -20%;
+    }
+
 .mousePositionContainer {
-    margin-bottom: 0.5em;
+    margin: 2em;
+    padding: 2em 3em;
+    border-radius: 3%;
 }
     .mousePositionContainer p {
         margin-bottom: 0.5em;
     }
+        .mousePositionContainer p:after {
+            content: '';
+            display: block;
+            width: 95%;
+            height: 0.3em;
+            position: relative;
+            bottom: -0.3em;
+        }
 
 .mousePosition{
-    border: 1px solid #333;
-    border-radius: 0.2em;
+
 }
 
 #loaingPropertiesTableData{
