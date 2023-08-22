@@ -5,16 +5,20 @@
 
 <div id="contentContainer" class="container-fluid">
     <div class="row">
-        <div id="leftContent" class="col-3">
-            <div id="mouseXPositionContainer" class="mousePositionContainer">
-                <p>Mouse X Position (px)</p>
-                <div id="mouseXPosition" class="mousePosition">000</div>
-            </div>
-            <div id="mouseYPositionContainer" class="mousePositionContainer">
-                <p>Mouse Y Position (px)</p>
-                <div id="mouseYPosition" class="mousePosition">000</div>
+
+        <div id="leftContent" class="text-center col-3">
+            <div id="mousePositionContainer">
+                <div id="mouseXPositionContainer" class="mousePositionContainer">
+                    <p>Mouse X Position (px)</p>
+                    <div id="mouseXPosition" class="mousePosition">000</div>
+                </div>
+                <div id="mouseYPositionContainer" class="mousePositionContainer">
+                    <p>Mouse Y Position (px)</p>
+                    <div id="mouseYPosition" class="mousePosition">000</div>
+                </div>
             </div>
         </div>
+
         <div id="mainContent" class="text-center col-6">
             <h2>SSE ASSESSMENT PROJECT</h2>
             <p>This project is a simple .net Core MVC project to show c# .net development skills of Alexandre for Allari's Fullstack Developer job position.</p>
@@ -45,7 +49,7 @@
                         }
                     </tbody>
                 </table>
-                <button onclick="updateData()">Update data</button>
+                <button id="updateDataButton" class="btn btn-primary btn-ripple" onclick="updateData()">Update data</button>
             </div>
         </div>
 

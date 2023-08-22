@@ -21,13 +21,15 @@ function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
-function updateData() {
+async function updateData() {
+    await delay(700);
+    $("#updateDataButton").prop("disabled", true);
     $("#propertiesTableContainer").css("display", "none");
     $("#loaingPropertiesTableData").css("display", "block");
     $.get("/home/updatedata", async function (data) {
         console.log(data);
 
-        await delay(1000);
+        await delay(800);
 
         if (data && Array.isArray(data) && data.length > 0) {
             const tableElement = $("#propertiesTableBody");
@@ -45,6 +47,7 @@ function updateData() {
 
             $("#loaingPropertiesTableData").css("display", "none");
             $("#propertiesTableContainer").css("display", "block");
+            $("#updateDataButton").prop("disabled", false);
         }
 
         
